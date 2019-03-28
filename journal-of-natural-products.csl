@@ -161,7 +161,7 @@
                 </if>
                 <else-if variable="issue">
                   <group delimiter=" ">
-                    <text variable="" text-case="capitalize-first" font-style="italic"/>
+                    <text variable=""/>
                   </group>
                 </else-if>
               </choose>
