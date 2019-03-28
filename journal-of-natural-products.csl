@@ -160,9 +160,6 @@
                   </group>
                 </if>
                 <else-if variable="issue">
-                  <group delimiter=" ">
-                    <text variable=" "/>
-                  </group>
                 </else-if>
               </choose>
               <text variable="page"/>
