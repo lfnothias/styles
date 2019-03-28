@@ -9,7 +9,6 @@
     <link href="http://pubs.acs.org/paragonplus/submission/jnprdf/jnprdf_authguide.pdf" rel="documentation"/>
     <issn>0163-3864</issn>
     <eissn>1520-6025</eissn>
-    <updated>2019-03-04T12:00:00+00:00</updated>
     <contributor>
       <name>Julian Onions</name>
       <email>julian.onions@gmail.com</email>
@@ -162,7 +161,7 @@
                 </if>
                 <else-if variable="issue">
                   <group delimiter=" ">
-                    <text/>
+                    <text variable="" text-case="capitalize-first" font-style="italic"/>
                   </group>
                 </else-if>
               </choose>
